@@ -12,7 +12,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
       target="_blank"
     >
       <img
-        src="/vite.svg"
+        src="../public/vite.svg"
         class="logo"
         alt="Vite logo"
       />
@@ -22,7 +22,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
       target="_blank"
     >
       <img
-        src="./assets/vue.svg"
+        src="../public/assets/vue.svg"
         class="logo vue"
         alt="Vue logo"
       />
