@@ -18,6 +18,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
 ## vite + vue 셋팅하기
+
 1. yarn create vite
 2. cd 프로젝트 이름
 3. yarn
