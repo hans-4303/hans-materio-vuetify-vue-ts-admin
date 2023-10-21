@@ -24,3 +24,16 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 3. yarn
 4. yarn add 패키지 이름 | 패키지 이름 --dev
 5. git init
+
+## eslint 셋팅하기
+
+1. yarn add eslint --dev
+2. yarn create @eslint/config
+3. yarn run eslint "실행할 파일"
+
+## prettier 셋팅하기
+
+1. yarn add --dev --exact prettier
+2. node --eval "fs.writeFileSync('.prettierrc.json','{}\n', 'utf-8')": 'utf-8' 형식으로 생성해야 JSON 에러 해결 가능
+3. yarn prettier . --write
+4. .eslintrc.cjs 접근, extends에 'prettier' 추가
