@@ -1,18 +1,15 @@
 <script setup lang="ts">
-// import { VApp, VLayout } from "vuetify/components";
 import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
-  <!-- <v-app>
-    <v-layout class="layout-wrapper layout-nav-type-vertical"> -->
   <div>
     <a
       href="https://vitejs.dev"
       target="_blank"
     >
       <img
-        src="../public/vite.svg"
+        src="/vite.svg"
         class="logo"
         alt="Vite logo"
       />
@@ -22,15 +19,13 @@ import HelloWorld from '@/components/HelloWorld.vue'
       target="_blank"
     >
       <img
-        src="../public/assets/vue.svg"
+        src="/assets/vue.svg"
         class="logo vue"
         alt="Vue logo"
       />
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <!-- </v-layout>
-  </v-app> -->
 </template>
 
 <style scoped>

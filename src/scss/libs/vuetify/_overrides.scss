@@ -1,5 +1,5 @@
-@use "@core/scss/utils";
-@use "@configured-variables" as variables;
+@use "../../utils";
+@use "../../../styles/variables/template" as variables;
 
 // 👉 Application
 // ℹ️ We need accurate vh in mobile devices as well

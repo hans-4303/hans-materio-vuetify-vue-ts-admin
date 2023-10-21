@@ -1,10 +1,9 @@
 import { Icon } from '@iconify/vue'
-import type { IconProps } from '@iconify/vue'
 import { h } from 'vue'
 import { aliases } from 'vuetify/lib/iconsets/mdi.mjs'
 
 export const iconify = {
-  component: (props: IconProps) => h(Icon, props),
+  component: props => h(Icon, props),
 }
 
 export const icons = {

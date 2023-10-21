@@ -25,7 +25,12 @@
     "noImplicitAny": false,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@scss/*": ["./src/scss/*"],
+      "@layouts": ["./src/layouts"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@axios": ["./src/plugins/axios"]
     },
     "types": ["vite/client"]
   },

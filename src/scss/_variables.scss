@@ -17,10 +17,10 @@
 
 $navbar-high-emphasis-text: true !default;
 
-@forward "@layouts/styles/variables" with (
+@forward "../layouts/core/styles/variables" with (
   $layout-vertical-nav-collapsed-width: 68px !default,
 );
-@use "@layouts/styles/variables" as *;
+@use "../layouts/core/styles/variables" as *;
 
 $theme-colors-name: (
   "primary",
